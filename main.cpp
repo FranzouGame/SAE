@@ -24,16 +24,16 @@ int main(void)
     cin >> nomJoueur;
     while (accepter != 'n' || accepter != 'y')
     {
-        cout << "Voulez vous changez de paramètre ? (y/n) " << endl;
-        cin >> accepter;
-    }
-    if (accepter == 'n')
-    {
-        accepter == 'a';
-    }
-    if (accepter == 'y')
-    {
-        cout << "Saisir le nombre de manche : ";
-        cin >> nbManche;
+                cout << "Voulez vous changez de paramètre ? (y/n) " << endl;
+                            cin >> accepter;
+                        }
+                        if (accepter == 'n')
+                        {
+                            accepter == 'a';
+                        }
+                        if (accepter == 'y')
+                        {
+                            cout << "Saisir le nombre de manche : ";
+                cin >> nbManche;
     }
 }
